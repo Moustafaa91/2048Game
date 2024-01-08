@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Game</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+    <div id="container">
+    <div class="gamecontainerClass" id="game-container"></div>
+    
+    <div id="config-container">
+        <div class="config-item">
+            <label for="grid-size">Grid Size:</label>
+            <select id="grid-size">
+                <option value="4">4x4</option>
+                <option value="6">6x6</option>
+                <option value="8">8x8</option>
+            </select>
+        </div>
+        <div class="config-item">
+            <label for="win-condition">Win Condition:</label>
+            <select id="win-condition">
+                <option value="256">256</option>
+                <option value="512">512</option>
+                <option value="1024">1024</option>
+                <option value="2048">2048</option>
+            </select>
+        </div>
+        <div class="config-item">
+            <button id="start-game">Start Game</button>
+        </div>
+        <div id="moves-counter">Moves: 0</div>
+        <div id="message"> </div>
+            <div id="credits">
+                Engineered by the ChatGPT Assistant with an emphasis on educational initiatives. <br />
+                Explore the game instructions below to enhance your gaming experience: <br />
+            <ul>
+                <li> Use arrow keys to slide and merge tiles. </li>
+                <li> Achieve the target value to win. </li>
+                <li> Customize grid size and win conditions before starting. </li>
+                <li> The more grid size the more easy game will be. </li>
+                <li> The hardest level is 4x4 and 2048 win condition. </li>
+            </ul>
+                Challenge yourself with varying difficulty levels.
+                Happy learning and gaming!
+            </div>
+    </div>
+        
+
+    </div>
+        
+    
+
+
+    <script src="https://pixijs.download/v8.0.0-rc/pixi.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/5.3.7/pixi.min.js"></script>
+    <script src="JS/config.js"></script>
+    <script src="JS/game.js"></script>
+</body>
+</html>
+
