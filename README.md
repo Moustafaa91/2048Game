@@ -4,6 +4,8 @@ Implementing 2048 Puzzle Game with Pixi.js and ChatGPT
 # Description
 This is a simple implementation of the classic 2048 game using HTML, CSS, and JavaScript with the PIXI.js library for graphics rendering. The game features a responsive grid that adapts to different screen sizes, smooth tile movements, and a customizable grid size.
 
+**This game is built with the assistance of ChatGPT as an experiment of coding with AI**
+
 # Features
 * **Responsive Design:** The game grid adapts to different screen sizes for a seamless playing experience.
 * **Smooth Animations:** Tile movements are animated using the PIXI.js library for a polished look.
