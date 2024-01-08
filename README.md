@@ -17,7 +17,7 @@ This is a simple implementation of the classic 2048 game using HTML, CSS, and Ja
 # Getting Started
 1. Clone the repository to your local machine.
 ```bash
-git clone [https://github.com/your-username/2048-game.git](https://github.com/Moustafaa91/2048Game.git)
+git clone https://github.com/Moustafaa91/2048Game.git
 ```
 2. Open the index.html file in a web browser.
 3. Play the game! Use the arrow keys to move tiles and try to reach the specified win condition.
