@@ -9,7 +9,7 @@ This is a simple implementation of the classic 2048 game using HTML, CSS, and Ja
 # Features
 * **Responsive Design:** The game grid adapts to different screen sizes for a seamless playing experience.
 * **Smooth Animations:** Tile movements are animated using the PIXI.js library for a polished look.
-* **Customizable Grid Size:** Players can choose grid sizes of 4x4, 6x6, 8x8, or 10x10.
+* **Customizable Grid Size:** Players can choose grid sizes of 4x4, 6x6, or 8x8.
 * **Win and Lose Conditions:** The game ends when the player reaches the specified win condition or can no longer make moves.
 * **Configuration Controls:** Players can customize the grid size and win condition before starting the game.
 * **Moves Counter:** The number of moves made during the game is displayed.
